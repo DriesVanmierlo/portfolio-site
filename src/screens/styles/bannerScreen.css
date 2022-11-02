@@ -1,0 +1,11 @@
+.banner-screen-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
+
+.banner-screen-background {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}

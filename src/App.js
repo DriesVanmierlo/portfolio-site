@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import BannerScreen from './screens/BannerScreen';
 
 function App() {
   return (
     <div className="App">
-      
+      <BannerScreen className='banner-screen' />
     </div>
   );
 }
