@@ -17,7 +17,7 @@ function Header() {
 
             <nav class="menu__box" onClick={closeMenu}>
                 <a exact activeClassName='menu__item-active' className="menu__item" href="/">Home</a>
-                <a className="menu__item" href="/about">About me</a>
+                <a className="menu__item" href="#about">About me</a>
                 <a className="menu__item" href="/portfolio">Services</a>
                 <a className="menu__item" href="/portfolio">Portfolio</a>
                 <a className="menu__item" href="/contact">Contact</a>
