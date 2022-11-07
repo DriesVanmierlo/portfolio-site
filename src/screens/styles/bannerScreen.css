@@ -1,11 +1,114 @@
 .banner-screen-container {
+    position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: blue;
 }
 
 .banner-screen-background {
     width: 100%;
     height: 100%;
-    background-color: green;
+}
+
+.banner-screen-content-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+
+.banner-figure {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    width: 165%;
+    height: auto;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.banner-vanmierlo {
+    position: absolute;
+    display: block;
+    margin: 0;
+    /* font-size: max(54px); */
+    font-weight: 600;
+    font-size: 7em;
+    color: transparent;
+    -webkit-text-stroke: 0.5px var(--yellow);
+    transform: rotate(-90deg);
+    top: 38%;
+    right: 25px;
+}
+
+.banner-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(transparent 60%, var(--black-20) 98%);
+}
+
+.banner-main-content {
+    position: absolute;
+    bottom: 7%;
+    display: flex;
+    width: 100%;
+    padding: 0 24px 0 24px;
+    justify-content: space-between;
+    text-shadow: 0px 0px 40px var(--black-10);
+}
+
+.banner-dries {
+    font-weight: 900;
+    font-size: 4.5em;
+    color: transparent;
+    -webkit-text-stroke: 0.7px var(--white);
+   
+}
+
+.banner-slogan {
+    position: absolute;
+    margin: 0;
+    bottom: -10px;
+    color: var(--white);
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.banner-arrow {
+    position: absolute;
+    display: inline;
+    margin: auto;
+    color: transparent;
+    -webkit-text-stroke: 0.5px var(--yellow);
+    bottom: 0;
+    text-align: center;
+    font-size: 4em;
+    z-index: 1;
+    right: 25vw;
+}
+
+.banner-arrow:before {
+    position: relative;
+    display: inline-block;
+    transform: rotate(90deg);
+    animation: updown 2.5s infinite ease-in-out;
+}
+
+@keyframes updown {
+    0% {top: 0px;
+    opacity: 0;}
+    25% {top:5px;
+    opacity: 1;}
+    75% {top: 25px;
+    opacity: 1;}
+    100% {top: 30px;
+    opacity: 0;}
 }
