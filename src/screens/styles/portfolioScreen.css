@@ -1,0 +1,58 @@
+.portfolio-screen-container {
+    position: relative;
+    height:75vh;
+    width: 100vw;
+    background-color: var(--black-20);
+}
+
+.portfolio-titles-container {
+    position: absolute;
+    top: -70px;
+}
+
+.portfolio-titles {
+    position: relative;
+    margin: auto;
+    padding-top: 24px;
+    display: flex;
+    align-items: baseline;
+    padding: 12px 24px 0 24px;
+}
+
+.portfolio-main-title {
+    margin: 0;
+    margin-top: 30px;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 2em;
+    text-shadow: 0px 0px 10px var(--black-75);
+    z-index: 1;
+}
+
+.portfolio-background-title {
+    position: absolute;
+    display: block;
+    margin: 0;
+    font-size: max(3.6em);
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 0.3px var(--yellow);
+}
+
+#portfolio-filter {
+    margin-top: 35px;
+    background-color: transparent;
+    color: var(--yellow);
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 1.1em;
+    border: none;
+    margin-left: 5%;
+}
+
+#portfolio-filter option {
+    background-color: var(--black-20);
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 1.1em;
+}

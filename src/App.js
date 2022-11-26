@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import BannerScreen from './screens/BannerScreen';
 import AboutScreen from './screens/AboutScreen';
 import ServicesScreen from './screens/ServicesScreen';
+import PortfolioScreen from './screens/PortfolioScreen';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <BannerScreen className='banner-screen' />
       <AboutScreen />
       <ServicesScreen />
+      <PortfolioScreen />
     </div>
   );
 }
