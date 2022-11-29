@@ -1,0 +1,14 @@
+.contact-screen-container {
+    width: 100%;
+    height: 95vh;
+    background-color: var(--black-20);
+    position: relative;
+}
+
+.contact-content-container {
+    position: absolute;
+    background-image: linear-gradient(var(--black-20) 15%, transparent 50%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+}

@@ -4,6 +4,7 @@ import BannerScreen from './screens/BannerScreen';
 import AboutScreen from './screens/AboutScreen';
 import ServicesScreen from './screens/ServicesScreen';
 import PortfolioScreen from './screens/PortfolioScreen';
+import ContactScreen from './screens/ContactScreen';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutScreen />
       <ServicesScreen />
       <PortfolioScreen />
+      <ContactScreen />
     </div>
   );
 }

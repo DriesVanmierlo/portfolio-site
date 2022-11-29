@@ -18,9 +18,9 @@ function Header() {
             <nav className="menu__box" onClick={closeMenu}>
                 <a exact activeClassName='menu__item-active' className="menu__item" href="/">Home</a>
                 <a className="menu__item" href="#about">About me</a>
-                <a className="menu__item" href="/portfolio">Services</a>
-                <a className="menu__item" href="/portfolio">Portfolio</a>
-                <a className="menu__item" href="/contact">Contact</a>
+                <a className="menu__item" href="#services">Services</a>
+                <a className="menu__item" href="#portfolio">Portfolio</a>
+                <a className="menu__item" href="#contact">Contact</a>
                 <div className='menu__socials_container'>
                     <li><a target="_blank" className="menu__item" href="https://www.instagram.com/vanmierlodries/" rel="noreferrer"><span className='icon-instagram'></span></a></li>
                     <li><a target="_blank" className="menu__item" href="https://www.facebook.com/dries.vanmierlo.94" rel="noreferrer"><span className='icon-facebook'></span></a></li>

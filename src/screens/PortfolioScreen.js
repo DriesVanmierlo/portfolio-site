@@ -29,7 +29,7 @@ function PortfolioScreen() {
 
 
   return (
-    <div className='portfolio-screen-container'>
+    <div id='portfolio' className='portfolio-screen-container'>
         <div className="portfolio-titles-container">
             <div className='portfolio-titles'>
                 <h1 className='portfolio-main-title'>Portfolio</h1>

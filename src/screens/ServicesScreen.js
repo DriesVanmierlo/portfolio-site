@@ -17,14 +17,14 @@ function ServicesScreen() {
     ];
 
   return (
-    <div className='services-screen-container'>
+    <div id='services' className='services-screen-container'>
         <BackgroundImage image={background_placeholder} opacity={0.4} />
         <div className="services-content-container">
             <h2 className='services-title'>What I can do for you:</h2>
             <ul className='services-list'>
                 {services.map((service) => (
                     <li key={service.id} className='services-list-item'>{service.title}</li>
-                    ))}
+                ))}
             </ul>
         </div>
     </div>
