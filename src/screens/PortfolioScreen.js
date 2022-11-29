@@ -9,10 +9,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import PortfolioModal from '../components/portfolio-modal/PortfolioModal';
 
 function PortfolioScreen() {
 
   const [innerWidth, setWidth] = useState(window.innerWidth);
+  const [openModal, setOpenModal] = useState(false);
+  const [project, setProject] = useState();
+
+
 
   const testArray = ["1", "2", "3"]
 
@@ -52,12 +57,13 @@ function PortfolioScreen() {
             hide: true,
           }} >
             {testArray.map(item => (
-              <SwiperSlide className='portfolio-swiper-slide'>
+              <SwiperSlide className='portfolio-swiper-slide' onClick={() => {setOpenModal(true); setProject(item)}}>
                 <PortfolioCarouselItem data={item} />
               </SwiperSlide>
             ))}
           </Swiper>
         </div>
+        {openModal && <PortfolioModal project={project} closeModal={setOpenModal} />}
     </div>
   )
 }
