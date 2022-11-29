@@ -1,0 +1,50 @@
+.portfolio-carousel-item {
+    width: 100%;
+    height: 100%;
+    /* margin: 0px 20px; */
+    background-color: var(--black-30);
+    /* box-shadow: unset; */
+    /* transition: 0.3s ease; */
+
+    /* transition details */
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.portfolio-carousel-item:hover{
+    cursor: pointer;
+}
+
+.carousel-item-content-container {
+    top: 0;
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    background-image: linear-gradient(transparent 75%, var(--black-10));
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.carousel-item-title {
+    color: var(--white);
+    font-size: 1.1em;
+    font-weight: 200;
+    text-align: left;
+    text-shadow: 2px 2px 3px var(--black-10), -2px -2px 3px var(--black-10);
+    margin-bottom: 0px;
+}
+
+.carousel-item-service {
+    color: var(--yellow);
+    font-size: 0.6em;
+    font-weight: 700;
+    text-align: left;
+}
+
+.carousel-item-more {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: var(--yellow);
+    font-weight: 100;
+}
