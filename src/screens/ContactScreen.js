@@ -1,7 +1,7 @@
 import React from 'react'
 import BackgroundImage from '../components/background-image/BackgroundImage'
 import './styles/contactScreen.css'
-import background_placeholder from '../assets/images/about_screen_background_placeholder.jpg'
+import background_placeholder from '../assets/images/contact_screen_background_placeholder.jpg'
 
 
 

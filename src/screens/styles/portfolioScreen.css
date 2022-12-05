@@ -1,6 +1,6 @@
 .portfolio-screen-container {
     position: relative;
-    height:70vh;
+    height:75vh;
     width: 100vw;
     background-color: var(--black-20);
 }

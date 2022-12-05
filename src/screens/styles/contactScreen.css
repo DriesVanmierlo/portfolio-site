@@ -84,7 +84,7 @@
 
 .input-container input {
     height: 24px;
-    background-color: #20202088;
+    background-color: #20202040;
     backdrop-filter: blur(5px);
     border: none;
     border-bottom: 1px solid var(--yellow);
@@ -97,7 +97,7 @@
 }
 
 .contact-message {
-    background-color: #20202088;
+    background-color: #20202040;
     backdrop-filter: blur(5px);
     border: none;
     border-bottom: 1px solid var(--yellow);

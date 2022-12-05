@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './styles/portfolioScreen.css'
+import projects from "../projects.json"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, A11y, Pagination, Scrollbar } from 'swiper';
@@ -16,10 +17,6 @@ function PortfolioScreen() {
   const [innerWidth, setWidth] = useState(window.innerWidth);
   const [openModal, setOpenModal] = useState(false);
   const [project, setProject] = useState();
-
-
-
-  const testArray = ["1", "2", "3"]
 
   useEffect(() => {
       window.addEventListener('resize', function(event) {
@@ -56,7 +53,7 @@ function PortfolioScreen() {
           scrollbar={{
             hide: true,
           }} >
-            {testArray.map(item => (
+            {projects.map(item => (
               <SwiperSlide className='portfolio-swiper-slide' onClick={() => {setOpenModal(true); setProject(item)}}>
                 <PortfolioCarouselItem data={item} />
               </SwiperSlide>
