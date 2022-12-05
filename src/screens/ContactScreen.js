@@ -24,12 +24,28 @@ function ContactScreen() {
           </div>
           <form>
             <div className="contact-form-row">
-              <label htmlFor="">Name</label>
-              <input type="text" />
+              <div className="input-container">
+                <label htmlFor="name">Name</label>
+                <input required type="text" id='name' name='name' />
+              </div>
+              <div className="input-container">
+                <label htmlFor="email">Email</label>
+                <input required type="text" id='email' name='email' />
+              </div>
             </div>
+            <div className="contact-form-row">
+              <div className="input-container">
+                <label htmlFor="subject">Subject</label>
+                <input required type="text" id='subject' name='subject' />
+              </div>
+            </div>
+            <div className="message-container input-container">
+                <label htmlFor="message">Message</label>
+                <textarea className="contact-message" rows={4} required type="text" id='message' name='message' />
+            </div>
+            <button className="white-button" id="contact-submit">Send <span className='icon-right_arrow_big_icon icon-contact'></span></button>
           </form>
         </div>
-        
     </div>
   )
 }
