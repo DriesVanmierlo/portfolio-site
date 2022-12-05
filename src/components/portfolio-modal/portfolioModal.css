@@ -170,6 +170,24 @@
     cursor: pointer;
 }
 
+.swiper-pagination-bullet-active-next,
+.swiper-pagination-bullet-active-prev {
+    border: 1px solid var(--yellow) !important;
+    opacity: 1 !important;
+    top: 41.5px !important;
+    transform: scale(0.9) !important;
+    background: transparent;
+}
+
+.swiper-pagination-bullet-active-next-next,
+.swiper-pagination-bullet-active-prev-prev {
+    border: 1px solid var(--yellow) !important;
+    opacity: 1 !important;
+    top: 41.5px !important;
+    transform: scale(0.6) !important;
+    background: transparent;
+}
+
 @media only screen and (min-width: 768px){
 
     .portfolio-modal-content {

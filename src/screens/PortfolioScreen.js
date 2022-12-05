@@ -3,13 +3,14 @@ import './styles/portfolioScreen.css'
 import projects from "../projects.json"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, A11y, Pagination, Scrollbar } from 'swiper';
+import { Navigation, A11y, Pagination, Scrollbar, Mousewheel } from 'swiper';
 import PortfolioCarouselItem from '../components/portfolio-carousel-item/PortfolioCarouselItem';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import 'swiper/css/mousewheel';
 import PortfolioModal from '../components/portfolio-modal/PortfolioModal';
 
 function PortfolioScreen() {
@@ -44,7 +45,8 @@ function PortfolioScreen() {
         </select>
         <div className='portfolio-carousel'>
         <Swiper
-          modules={[A11y, Pagination, Navigation, Scrollbar]}
+          modules={[A11y, Pagination, Navigation, Scrollbar, Mousewheel]}
+          mousewheel={true}
           spaceBetween={20}
           slidesPerView={setSlidesPerView(innerWidth)}
           // navigation
@@ -52,6 +54,9 @@ function PortfolioScreen() {
           centeredSlides={setCentered(innerWidth)}
           scrollbar={{
             hide: true,
+            dragClass:"swiper-scrollbar-drag",
+            dragSize: 75,
+            draggable: true
           }} >
             {projects.map(item => (
               <SwiperSlide className='portfolio-swiper-slide' onClick={() => {setOpenModal(true); setProject(item)}}>
