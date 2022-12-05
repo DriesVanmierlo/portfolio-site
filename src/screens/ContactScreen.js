@@ -22,7 +22,7 @@ function ContactScreen() {
             <a target="_blank" className="contact-social-icon" href="https://www.facebook.com/dries.vanmierlo.94" rel="noreferrer"><span className='icon-facebook'></span></a>
             <a target="_blank" className="contact-social-icon" href="https://www.linkedin.com/company/dries-vanmierlo/" rel="noreferrer"><span className='icon-linkedin'></span></a>
           </div>
-          <form>
+          <form id='contact-form'>
             <div className="contact-form-row">
               <div className="input-container">
                 <label htmlFor="name">Name</label>

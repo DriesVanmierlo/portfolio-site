@@ -69,3 +69,21 @@
     background-image: linear-gradient(90deg, transparent 20%, var(--yellow) 40%);
     bottom: 5%;
 }
+
+@media only screen and (min-width: 768px){
+
+    .about-titles {
+        padding: 12px 48px 0 48px;
+    }
+
+    .about-hey {
+        padding: 12px 48px 0 48px;
+    }
+
+    .about-text {
+        width: 60%;
+        padding: 12px 48px 0 48px;
+
+    }
+
+}

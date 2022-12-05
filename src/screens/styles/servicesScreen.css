@@ -37,3 +37,15 @@
     color: transparent;
     -webkit-text-stroke: 0.2px var(--yellow);
 }
+
+@media only screen and (min-width: 768px){
+
+    .services-title {
+        padding: 0 48px 0 48px;
+    }
+
+    .services-screen-container {
+        height:45vh;
+    }
+
+}

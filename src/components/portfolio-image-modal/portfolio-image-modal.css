@@ -6,7 +6,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--black-30);
+    background-color: #202020dd;
     position: fixed;
     z-index: 1;
 }

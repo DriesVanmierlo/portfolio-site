@@ -112,3 +112,33 @@
     100% {top: 30px;
     opacity: 0;}
 }
+
+@media only screen and (min-width: 768px){
+
+    .banner-figure{
+        width: 130%;
+        padding-left: 15%;
+    }
+
+    .banner-vanmierlo {
+        right: 38%;
+        font-size: 9em;
+        font-weight: 900;
+    }
+
+    .banner-main-content {
+      padding: 0 48px 0 48px;
+    }
+
+    .banner-dries {
+        font-size: 6em;
+    }
+
+    .banner-slogan {
+        font-size: 1.8em;
+    }
+
+    .banner-arrow {
+        padding-bottom: 30px;
+    }
+}

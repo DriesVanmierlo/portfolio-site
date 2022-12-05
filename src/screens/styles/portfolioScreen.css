@@ -47,7 +47,7 @@
     font-weight: 200;
     font-size: 1.1em;
     border: none;
-    margin-left: 5%;
+    margin-left: 24px;
 }
 
 #portfolio-filter option {
@@ -58,7 +58,8 @@
 }
 
 .portfolio-carousel {
-    margin-top: 45px;
+    margin-top: 0;
+    padding-top: 125px;
     display: flex;
     overflow: auto;
     height: auto;
@@ -122,5 +123,42 @@
 @media only screen and (max-width: 767px){
     .portfolio-swiper-slide{
         width: 75% !important;
+    }
+}
+
+@media only screen and (min-width: 768px){
+
+    .portfolio-titles {
+        padding: 12px 48px 0 48px;
+
+    }
+
+    .portfolio-titles-container {
+        position: unset;
+        height: 50px;
+    }
+
+    .portfolio-header {
+        position: absolute;
+        display: flex;
+        top: -70px;
+    }
+
+    #portfolio-filter {
+        margin-left: 10vw;
+    }
+    .portfolio-carousel {
+        padding-top: 25px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .portfolio-swiper-slide {
+        max-width: unset;
+        /* width: null !important; */
+    }
+
+    .portfolio-swiper-slide {
+        height: 500px !important;
     }
 }
