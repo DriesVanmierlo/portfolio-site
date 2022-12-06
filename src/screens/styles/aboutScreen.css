@@ -87,3 +87,20 @@
     }
 
 }
+
+@media only screen and (min-width: 1024px){
+
+    .about-main-title {
+        font-size: 3em;
+        margin-top: 45px;
+    }
+
+    .about-background-title {
+        font-size: 5.4em;
+    }
+
+    .about-text {
+        width: 40%;
+    }
+
+}

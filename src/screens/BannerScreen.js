@@ -7,7 +7,7 @@ import profilePicture from '../assets/images/profile_transparent.png'
 
 function BannerScreen() {
   return (
-    <div className='banner-screen-container'>
+    <div id='home' className='banner-screen-container'>
         <BackgroundImage className='banner-screen-background' image={background_placeholder} opacity={0.7} />
         <div className='banner-screen-content-container'>
             <div className='banner-vanmierlo'>Vanmierlo</div>
@@ -16,7 +16,7 @@ function BannerScreen() {
             </figure>
             <div className='banner-gradient'></div>
             <div className="banner-main-content">
-              <div>
+              <div className='banner-lowerthird'>
                 <div className='banner-dries'>Dries</div>
                 <p className='banner-slogan'>A Creative Mind</p>
               </div>

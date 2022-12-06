@@ -120,6 +120,18 @@
     background: var(--yellow) !important;
 }
 
+.swiper-scrollbar {
+    margin: 15px 0 15px 0 !important;
+}
+
+.swiper-scrollbar-drag:hover {
+    height: 25px !important;
+}
+
+.swiper-scrollbar:hover {
+    height: 25px !important;
+}
+
 @media only screen and (max-width: 767px){
     .portfolio-swiper-slide{
         width: 75% !important;
@@ -160,5 +172,25 @@
 
     .portfolio-swiper-slide {
         height: 500px !important;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .portfolio-main-title {
+        font-size: 3em;
+        margin-top: 45px;
+    }
+
+    .portfolio-background-title {
+        font-size: 5.4em;
+    }
+
+    .portfolio-carousel {
+        padding-top: 50px;
+    }
+
+    .portfolio-swiper-slide {
+        max-height: 50vh !important;
     }
 }

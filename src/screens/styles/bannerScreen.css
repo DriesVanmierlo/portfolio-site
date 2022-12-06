@@ -21,8 +21,8 @@
     position: absolute;
     margin: 0;
     bottom: 0;
-    width: 165%;
-    height: auto;
+    max-height: 95vh;
+    width: 150%;
 }
 
 .banner-image {
@@ -116,8 +116,9 @@
 @media only screen and (min-width: 768px){
 
     .banner-figure{
-        width: 130%;
-        padding-left: 15%;
+        height: 95vh;
+        width: auto;
+        min-width: 95vh;
     }
 
     .banner-vanmierlo {
@@ -141,4 +142,67 @@
     .banner-arrow {
         padding-bottom: 30px;
     }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .banner-screen-container {
+        width: 100%;
+    }
+
+    .banner-figure {
+        height: 95%;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .banner-image {
+        height: 100%;
+        width: auto;
+        margin: auto;
+    }
+
+    .banner-vanmierlo {
+        transform: none;
+        font-size: 16vw;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        top: calc(40vh - 7vw);
+    }
+
+    .banner-lowerthird {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner-main-content{
+      width: calc(100% - 136px);
+      padding: 0 68px 0 68px;
+      bottom: 10%;
+      text-shadow: 0px 0px 60px var(--black-20);
+    }
+
+    .banner-dries {
+        font-size: 10em;
+    }
+
+    .banner-slogan{
+        position: unset;
+        font-size: 3em;
+        align-self: center;
+        width: 20%;
+        text-align: right;
+        line-height: 100%;
+    }
+
+    .banner-arrow {
+        right: unset;
+        width: calc(100% - 136px);
+        margin: auto;
+        padding-bottom: 0;
+    }
+
 }
