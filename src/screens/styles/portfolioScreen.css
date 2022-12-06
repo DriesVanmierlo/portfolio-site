@@ -1,7 +1,7 @@
 .portfolio-screen-container {
     position: relative;
     height:75vh;
-    width: 100vw;
+    width: 100%;
     background-color: var(--black-20);
 }
 
@@ -118,10 +118,6 @@
 
 .swiper-scrollbar-drag {
     background: var(--yellow) !important;
-}
-
-.swiper-scrollbar {
-    margin: 15px 0 15px 0 !important;
 }
 
 .swiper-scrollbar-drag:hover {

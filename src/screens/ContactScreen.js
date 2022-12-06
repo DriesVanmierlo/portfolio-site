@@ -8,7 +8,7 @@ import background_placeholder from '../assets/images/contact_screen_background_p
 function ContactScreen() {
   return (
     <div id='contact' className='contact-screen-container'>
-        <BackgroundImage image={background_placeholder} opacity={0.7} />
+        {/* <BackgroundImage image={background_placeholder} opacity={0.7} /> */}
         <div className="contact-content-container">
           <div className='contact-titles'>
             <h1 className='contact-main-title'>Contact</h1>

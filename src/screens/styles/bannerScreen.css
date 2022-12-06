@@ -1,7 +1,7 @@
 .banner-screen-container {
     position: relative;
     height: 100vh;
-    width: 100vw;
+    width: 100;
 }
 
 .banner-screen-background {
@@ -22,7 +22,9 @@
     margin: 0;
     bottom: 0;
     max-height: 95vh;
-    width: 150%;
+    min-width: 120%;
+    width: auto;
+    padding-left: 25%;
 }
 
 .banner-image {
@@ -39,13 +41,14 @@
     display: block;
     margin: 0;
     /* font-size: max(54px); */
-    font-weight: 600;
-    font-size: 7em;
+    font-weight: 900;
+    font-size: 6em;
     color: transparent;
     -webkit-text-stroke: 0.5px var(--yellow);
     transform: rotate(-90deg);
     top: 38%;
-    right: 25px;
+    right: calc(-345px + 100vw);
+
 }
 
 .banner-gradient {
@@ -122,9 +125,7 @@
     }
 
     .banner-vanmierlo {
-        right: 38%;
-        font-size: 9em;
-        font-weight: 900;
+        right: calc(-375px + 100vw);
     }
 
     .banner-main-content {
@@ -193,7 +194,7 @@
         position: unset;
         font-size: 3em;
         align-self: center;
-        width: 20%;
+        width: 25%;
         text-align: right;
         line-height: 100%;
     }

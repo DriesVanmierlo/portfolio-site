@@ -1,7 +1,7 @@
 .services-screen-container {
     position: relative;
     height:65vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .services-content-container {
@@ -50,10 +50,10 @@
 
 }
 
-@media only screen and (min-width: 1024){
+@media only screen and (min-width: 1024px){
 
     .services-screen-container {
-        height:60vh;
+        height: 65vh;
     }
 
 }

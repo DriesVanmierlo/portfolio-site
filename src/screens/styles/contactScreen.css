@@ -1,17 +1,22 @@
 .contact-screen-container {
     width: 100%;
-    height: 95vh;
+    min-height: 95vh;
+    height: 100%;
     background-color: var(--black-20);
     position: relative;
+    background-image: url('../../assets/images/contact_screen_background_placeholder.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .contact-content-container {
-    position: absolute;
     background-image: linear-gradient(var(--black-20) 15%, transparent 50%);
     width: 100%;
     height: 100%;
     top: 0;
-
+    padding-bottom: 25px;
 }
 
 .contact-titles {
@@ -166,4 +171,25 @@
         margin-top: 32px
     }
 
+}
+
+
+@media only screen and (min-width: 1024px){
+
+    .contact-main-title {
+        font-size: 3em;
+        margin-top: 45px;
+    }
+
+    .contact-background-title {
+        font-size: 5.4em;
+    }
+
+    #contact-form, .contact-information-title,
+    .contact-email,
+    .contact-phone,
+    .contact-socials-container{
+        width: 80%;
+        margin: auto;
+    }
 }
