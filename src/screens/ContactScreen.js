@@ -1,11 +1,8 @@
 import React from 'react'
-import BackgroundImage from '../components/background-image/BackgroundImage'
 import './styles/contactScreen.css'
-import background_placeholder from '../assets/images/contact_screen_background_placeholder.jpg'
-
-
 
 function ContactScreen() {
+
   return (
     <div id='contact' className='contact-screen-container'>
         {/* <BackgroundImage image={background_placeholder} opacity={0.7} /> */}
@@ -22,7 +19,11 @@ function ContactScreen() {
             <a target="_blank" className="contact-social-icon" href="https://www.facebook.com/dries.vanmierlo.94" rel="noreferrer"><span className='icon-facebook'></span></a>
             <a target="_blank" className="contact-social-icon" href="https://www.linkedin.com/company/dries-vanmierlo/" rel="noreferrer"><span className='icon-linkedin'></span></a>
           </div>
-          <form id='contact-form'>
+          <form id='contact-form' action="https://formsubmit.co/64ae6bbefa203737663636a84ed31981" method="POST">
+          <input type="text" name="_honey" style={{display: "none"}} />
+          <input type="hidden" name="_captcha" value={false} />
+          <input type="hidden" name="_next" value="http://localhost:3000#contact" />
+          {/* {submitted && <div>Message send succesfully, you will hear from me is a short time!</div>} */}
             <div className="contact-form-row">
               <div className="input-container">
                 <label htmlFor="name">Name</label>

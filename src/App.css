@@ -74,6 +74,7 @@
 
   body {
     font-family: 'Poppins', sans-serif;
+    background-color: var(--black-20);
   }
   
 .app-container{
