@@ -50,6 +50,10 @@
     margin-left: 24px;
 }
 
+#portfolio-filter:hover {
+    cursor: pointer;
+}
+
 #portfolio-filter option {
     background-color: var(--black-20);
     font-family: 'Poppins';

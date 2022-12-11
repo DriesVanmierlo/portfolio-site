@@ -48,8 +48,8 @@ function PortfolioScreen() {
           <select name="portfolio-filter" id="portfolio-filter" onChange={getCurrentFilter}>
               <option value="All Projects">All projects</option>
               <option value="Frontend">Frontend</option>
+              <option value="App">App</option>
               <option value="Graphic Design">Graphic Design</option>
-              <option value="Webdesign">Webdesign</option>
               <option value="Videography">Videography</option>
               <option value="Photography">Photography</option>
               <option value="VJ">VJ</option>

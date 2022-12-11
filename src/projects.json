@@ -20,6 +20,34 @@
     "link": ""
 },
 {
+    "title": "Deliveroo clone",
+    "description": "Om mij te specialiseren in React Native heb ik een clone gemaakt van de welbekende app Deliveroo.",
+    "service": "App",
+    "content": ["https://i.ibb.co/FJGcKwq/Deliveroo-Home-Mockup.jpg", "https://i.ibb.co/SfCt6LW/Deliveroo-Delivery-Mockup.jpg", "https://player.vimeo.com/video/780172191?h=ed3d27e618"],
+    "link": ""
+},
+{
+    "title": "Live location tracker",
+    "description": "In voorbereiding voor mijn eindwerk aan de Erasmushogeschool Brussel, heb ik onderzocht hoe ik live locatie kan delen met elkaar.",
+    "service": "App",
+    "content": ["https://i.ibb.co/LS4fBKj/Live-Location-Mockup.jpg", "https://player.vimeo.com/video/780172826?h=e4bc6ab6f7"],
+    "link": ""
+},
+{
+    "title": "Usersystem and notifications",
+    "description": "Een gebruikers systeem ligt aan de basis van zowat iedere app. Vandaar dat ik zelf dit ook eens onder de loep nam.",
+    "service": "App",
+    "content": ["https://i.ibb.co/n8H8KKv/Notifications-Signup-Mockup.jpg", "https://i.ibb.co/zPq6YbG/Notifications-Home-Mockup.jpg", "https://i.ibb.co/xCjqgkq/Notifications-Scan-Mockup.jpg", "https://i.ibb.co/HqB83bv/Notifications-Notification-Mockup.jpg", "https://player.vimeo.com/video/780173253?h=744abc02da"],
+    "link": ""
+},
+{
+    "title": "Background notifications",
+    "description": "Om ervoor te zorgen dat iedereen een correcte meding krijgt, heb ik met behulp van een backend een kleine app hier rond gebouwd.",
+    "service": "App",
+    "content": ["https://i.ibb.co/mNQLj69/Background-Notifications-Location-Mockup.jpg", "https://i.ibb.co/fk4Fbw0/Background-Notifications-Alarm-Mockup.jpg", "https://i.ibb.co/514NgbC/Background-Notifications-Update-Mockup.jpg", "https://i.ibb.co/cJT1LTW/Background-Notifications-Nearby-Mockup.jpg", "https://player.vimeo.com/video/780173840?h=f62b323e08"],
+    "link": ""
+},
+{
     "title": "Falsive Records Leuven",
     "service": "Photography",
     "description": "In het voorjaar mocht ik voor dit Nederlandse platenlabel hun techno showcase in beeld brengen. De wens was om zwart-wit foto's te maken maar als ik wou, mocht ik ook zelf wat experimenteren. De reactie: boven verwachtingen!",

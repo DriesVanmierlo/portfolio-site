@@ -47,6 +47,7 @@ function ContactScreen() {
             <button className="white-button" id="contact-submit">Send <span className='icon-right_arrow_big_icon icon-contact'></span></button>
           </form>
         </div>
+        <div className='copyright-disclaimer'>&copy; 2022 <a href="#">Dries Vanmierlo</a></div>
     </div>
   )
 }
