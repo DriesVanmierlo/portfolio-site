@@ -1,8 +1,8 @@
 .portfolio-screen-container {
     position: relative;
-    height:75vh;
     width: 100%;
     background-color: var(--black-20);
+    padding-bottom: 50px;
 }
 
 .portfolio-titles-container {

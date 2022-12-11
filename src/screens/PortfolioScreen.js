@@ -18,6 +18,7 @@ function PortfolioScreen() {
   const [innerWidth, setWidth] = useState(window.innerWidth);
   const [openModal, setOpenModal] = useState(false);
   const [project, setProject] = useState();
+  const [filteredProjects, setFilteredProjects] = useState(projects)
 
   useEffect(() => {
       window.addEventListener('resize', function(event) {
@@ -25,6 +26,16 @@ function PortfolioScreen() {
       }, true);
   })
 
+  const getCurrentFilter = () => {
+    const value = document.getElementById('portfolio-filter').value
+
+    if (value === "All Projects"){
+      setFilteredProjects(projects)
+    } else {
+      const relevantProjects = projects.filter(project => project.service === value)
+      setFilteredProjects(relevantProjects)
+    }
+  }
 
   return (
     <div id='portfolio' className='portfolio-screen-container'>
@@ -34,14 +45,14 @@ function PortfolioScreen() {
                   <h1 className='portfolio-main-title'>Portfolio</h1>
                   <div className='portfolio-background-title'>Portfolio</div>
               </div>
-          <select name="portfolio-filter" id="portfolio-filter">
-              <option value="">All projects</option>
-              <option value="">Frontend</option>
-              <option value="">Graphic design</option>
-              <option value="">Webdesign</option>
-              <option value="">Video</option>
-              <option value="">Photography</option>
-              <option value="">VJ</option>
+          <select name="portfolio-filter" id="portfolio-filter" onChange={getCurrentFilter}>
+              <option value="All Projects">All projects</option>
+              <option value="Frontend">Frontend</option>
+              <option value="Graphic Design">Graphic Design</option>
+              <option value="Webdesign">Webdesign</option>
+              <option value="Videography">Videography</option>
+              <option value="Photography">Photography</option>
+              <option value="VJ">VJ</option>
           </select>
           </div>
         </div>
@@ -60,7 +71,7 @@ function PortfolioScreen() {
             dragSize: 75,
             draggable: true
           }} >
-            {projects.map(item => (
+            {filteredProjects.map(item => (
               <SwiperSlide className='portfolio-swiper-slide' onClick={() => {setOpenModal(true); setProject(item)}}>
                 <PortfolioCarouselItem data={item} />
               </SwiperSlide>
