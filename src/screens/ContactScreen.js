@@ -22,7 +22,7 @@ function ContactScreen() {
           <form id='contact-form' action="https://formsubmit.co/64ae6bbefa203737663636a84ed31981" method="POST">
           <input type="text" name="_honey" style={{display: "none"}} />
           <input type="hidden" name="_captcha" value={false} />
-          <input type="hidden" name="_next" value="http://localhost:3000#contact" />
+          <input type="hidden" name="_next" value="https://www.driesvanmierlo.be/#contact" />
           {/* {submitted && <div>Message send succesfully, you will hear from me is a short time!</div>} */}
             <div className="contact-form-row">
               <div className="input-container">
