@@ -1,6 +1,6 @@
 import React from 'react'
 import './backgroundSwiper.css'
-import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper';
+import { Autoplay, EffectFade } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import "swiper/css";
@@ -22,7 +22,7 @@ function BackgroundSwiper() {
           }}
           loop={true}
         modules={[EffectFade, Autoplay]}
-        className="mySwiper"
+        className="background-swiper"
       >
         <SwiperSlide>
             <figure className='background-swiper-figure'>

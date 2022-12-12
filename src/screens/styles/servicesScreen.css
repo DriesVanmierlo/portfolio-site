@@ -5,11 +5,6 @@
     overflow: hidden;
 }
 
-.swiper-fade {
-    width: 100vw !important;
-    margin: 0 !important;
-}
-
 .services-content-container {
     position: absolute;
     top: 0;
@@ -51,7 +46,7 @@
 
 .services-swiper {
     width: 100%;
-    padding: 0 24px 0 24px;
+    padding: 0 24px 0 24px !important;
 }
 
 .service-swiper-slide {

@@ -11,8 +11,18 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import BackgroundSwiper from '../components/background-swiper/BackgroundSwiper';
+import { useState, useEffect } from 'react';
 
 function ServicesScreen() {
+
+  const [innerWidth, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    window.addEventListener('resize', function(event) {
+        setWidth(this.window.innerWidth);
+    }, true);
+})
+
 
     const services=[
         {id:0, title: "Frontend"},
@@ -43,7 +53,7 @@ function ServicesScreen() {
             delay: 3000,
             disableOnInteraction: false,
           }}
-          slidesPerView={5}
+          slidesPerView={setSlidesPerView(innerWidth)}
           className='services-swiper'
           >
             {services.map(item => (
@@ -60,4 +70,16 @@ function ServicesScreen() {
   )
 }
 
+
 export default ServicesScreen
+
+function setSlidesPerView(innerWidth){
+    console.log(innerWidth);
+    if(innerWidth < 768){
+        return "auto";
+    } else if (innerWidth >= 1124){
+        return 5;
+    } else {
+        return 3;
+    }
+  }
