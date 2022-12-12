@@ -2,6 +2,12 @@
     position: relative;
     height:65vh;
     width: 100%;
+    overflow: hidden;
+}
+
+.swiper-fade {
+    width: 100vw !important;
+    margin: 0 !important;
 }
 
 .services-content-container {
@@ -11,6 +17,7 @@
     height: 100%;
     background-image: linear-gradient(var(--black-20) 15%, transparent 35%, transparent 90%, var(--black-20));
     overflow: hidden;
+    z-index: 1;
 }
 
 .services-title {
@@ -36,6 +43,29 @@
     font-weight: 600;
     color: transparent;
     -webkit-text-stroke: 0.2px var(--yellow);
+}
+
+.services-swiper .active-service, .services-swiper .not-active-service {
+    margin-top: 0;
+}
+
+.services-swiper {
+    width: 100%;
+    padding: 0 24px 0 24px;
+}
+
+.service-swiper-slide {
+    width: fit-content;
+    text-align: center;
+    font-size: 2em;
+    width: fit-content;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 0.2px var(--yellow);
+}
+
+.service-swiper-slide .active-service {
+    color: var(--yellow);
 }
 
 @media only screen and (min-width: 768px){

@@ -3,6 +3,7 @@
     width: 100%;
     background-color: var(--black-20);
     padding-bottom: 50px;
+    z-index: 1;
 }
 
 .portfolio-titles-container {
