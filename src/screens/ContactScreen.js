@@ -1,4 +1,5 @@
 import React from 'react'
+import SectionTitle from '../components/section-title/SectionTitle'
 import './styles/contactScreen.css'
 
 function ContactScreen() {
@@ -7,10 +8,7 @@ function ContactScreen() {
     <div id='contact' className='contact-screen-container'>
         {/* <BackgroundImage image={background_placeholder} opacity={0.7} /> */}
         <div className="contact-content-container">
-          <div className='contact-titles'>
-            <h1 className='contact-main-title'>Contact</h1>
-            <div className='contact-background-title'>Contact</div>
-          </div>
+          <SectionTitle title='Contact' />
           <h2 className='contact-information-title'>Contact information</h2>
           <p className='contact-email'>dries.vanmierlo@telenet.be</p>
           <p className='contact-phone'>+32 470 63 75 28</p>

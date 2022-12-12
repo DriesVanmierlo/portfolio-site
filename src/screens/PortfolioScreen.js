@@ -12,6 +12,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/mousewheel';
 import PortfolioModal from '../components/portfolio-modal/PortfolioModal';
+import SectionTitle from '../components/section-title/SectionTitle';
 
 function PortfolioScreen() {
 
@@ -41,10 +42,7 @@ function PortfolioScreen() {
     <div id='portfolio' className='portfolio-screen-container'>
           <div className="portfolio-titles-container">
         <div className="portfolio-header">
-              <div className='portfolio-titles'>
-                  <h1 className='portfolio-main-title'>Portfolio</h1>
-                  <div className='portfolio-background-title'>Portfolio</div>
-              </div>
+              <SectionTitle title='Portfolio' />
           <select name="portfolio-filter" id="portfolio-filter" onChange={getCurrentFilter}>
               <option value="All Projects">All projects</option>
               <option value="Frontend">Frontend</option>

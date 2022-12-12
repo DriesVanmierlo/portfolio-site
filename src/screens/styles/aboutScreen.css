@@ -2,6 +2,7 @@
     position: relative;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
 }
 
 .about-content-container {
@@ -10,6 +11,7 @@
     width: 100%;
     height: 100%;
     top: 0;
+    z-index: 1;
 }
 
 .about-titles {
@@ -60,6 +62,7 @@
     height: 1px;
     background-image: linear-gradient(90deg, var(--yellow) 40%, transparent 60%);
     bottom: 8%;
+    z-index: 1;
 }
 
 .about-devider-right {
@@ -68,6 +71,33 @@
     height: 1px;
     background-image: linear-gradient(90deg, transparent 20%, var(--yellow) 40%);
     bottom: 5%;
+    z-index: 1;
+}
+
+
+.about-figure {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    max-height: 50vh;
+    min-width: 75%;
+    width: auto;
+    padding-left: 50%;
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+@media only screen and (min-width: 600px){
+    .about-figure {
+        min-width: 50%;
+    }
 }
 
 @media only screen and (min-width: 768px){
@@ -84,6 +114,15 @@
         width: 60%;
         padding: 12px 48px 0 48px;
 
+    }
+
+    .about-figure{
+        min-height: 40vh;
+        max-height: 50vh;
+        width: auto;
+        min-width: 25%;
+        max-width: 40%;
+        right: 0;
     }
 
 }
@@ -106,6 +145,22 @@
 
     .about-text {
         width: 40%;
+    }
+
+    .about-figure {
+        height: 75vh;
+        min-height: 50%;
+        width: auto;
+        min-width: unset;
+        max-height: unset;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about-image {
+        height: 100%;
+        width: auto;
+        margin: auto;
     }
 
 }

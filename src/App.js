@@ -5,7 +5,6 @@ import AboutScreen from './screens/AboutScreen';
 import ServicesScreen from './screens/ServicesScreen';
 import PortfolioScreen from './screens/PortfolioScreen';
 import ContactScreen from './screens/ContactScreen';
-import { MyComponent } from './screens/MyComponent';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <ServicesScreen />
       <PortfolioScreen />
       <ContactScreen />
-      <MyComponent />
     </div>
   );
 }
