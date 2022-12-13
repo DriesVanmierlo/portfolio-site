@@ -13,13 +13,6 @@
     "link": ""
 },
 {
-    "title": "Kapsamazing",
-    "description": "In mijn opleiding kregen we de kans om een full stack website te maken naar keuze. Van concept tot ontwerp tot doordachte uitwerking, met als resultaat een speelse, strakke en functionele website! Op de site kunnen gebruikers de kapsalon(gerecht) die ze net hebben gegeten een rating geven. Op deze manier kunnen de bezoekers van de site zien waar ze de beste kapsalons maken!",
-    "service": "Frontend",
-    "content": ["https://i.ibb.co/SxhXTxv/kapsamazing-homepage.jpg", "https://i.ibb.co/LRKq5vP/kapsamazing-detailpage.jpg", "https://player.vimeo.com/video/724840144?h=a90b78fd90"],
-    "link": ""
-},
-{
     "title": "Deliveroo clone",
     "description": "Om mij te specialiseren in React Native heb ik een clone gemaakt van de welbekende app Deliveroo.",
     "service": "App",
@@ -28,9 +21,16 @@
 },
 {
     "title": "VJ @ Hangar58",
-    "description": "Ik mocht de VJ van dienst zijn voor het bedrijffeest van Scania. Het was een prachtig evenement op een prachtige locatie!",
+    "description": "Ik mocht de VJ van dienst zijn voor het bedrijfsfeest van Scania. Het was een prachtig evenement op een prachtige locatie! Een VJ is een 'video jockey', dat betekent in dit geval dat ik de schermen aanstuur!",
     "service": "VJ",
-    "content": ["https://i.ibb.co/GRtd7h3/Scania-vj.jpg"],
+    "content": ["https://i.ibb.co/GRtd7h3/Scania-vj.jpg", "https://player.vimeo.com/video/780738644?h=6f5ac0ebb6"],
+    "link": ""
+},
+{
+    "title": "Kapsamazing",
+    "description": "In mijn opleiding kregen we de kans om een full stack website te maken naar keuze. Van concept tot ontwerp tot doordachte uitwerking, met als resultaat een speelse, strakke en functionele website! Op de site kunnen gebruikers de kapsalon(gerecht) die ze net hebben gegeten een rating geven. Op deze manier kunnen de bezoekers van de site zien waar ze de beste kapsalons maken!",
+    "service": "Frontend",
+    "content": ["https://i.ibb.co/SxhXTxv/kapsamazing-homepage.jpg", "https://i.ibb.co/LRKq5vP/kapsamazing-detailpage.jpg", "https://player.vimeo.com/video/724840144?h=a90b78fd90"],
     "link": ""
 },
 {
