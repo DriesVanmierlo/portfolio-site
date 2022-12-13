@@ -15,7 +15,7 @@ function ContactScreen() {
           <div className='contact-socials-container'>
             <a target="_blank" className="contact-social-icon" href="https://www.instagram.com/vanmierlodries/" rel="noreferrer"><span className='icon-instagram'></span></a>
             <a target="_blank" className="contact-social-icon" href="https://www.facebook.com/dries.vanmierlo.94" rel="noreferrer"><span className='icon-facebook'></span></a>
-            <a target="_blank" className="contact-social-icon" href="https://www.linkedin.com/company/dries-vanmierlo/" rel="noreferrer"><span className='icon-linkedin'></span></a>
+            <a target="_blank" className="contact-social-icon" href="https://www.linkedin.com/in/dries-vanmierlo" rel="noreferrer"><span className='icon-linkedin'></span></a>
           </div>
           <form id='contact-form' action="https://formsubmit.co/64ae6bbefa203737663636a84ed31981" method="POST">
           <input type="text" name="_honey" style={{display: "none"}} />
