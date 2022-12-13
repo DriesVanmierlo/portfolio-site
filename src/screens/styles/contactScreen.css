@@ -4,6 +4,7 @@
     height: 100%;
     background-color: var(--black-20);
     position: relative;
+    z-index: -1;
     
     background-image: url('../../assets/images/contact_screen_background_placeholder.jpg');
     background-size: cover;

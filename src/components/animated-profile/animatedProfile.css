@@ -1,0 +1,62 @@
+.about-figure {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    max-height: 50vh;
+    min-width: 75%;
+    width: auto;
+    padding-left: 50%;
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+@media only screen and (min-width: 600px){
+    .about-figure {
+        min-width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+
+    .about-figure{
+        min-height: 40vh;
+        max-height: 50vh;
+        width: auto;
+        max-width: 40%;
+        right: 0;
+    }
+
+    .about-image {
+        max-width: 150%;
+        width: auto;
+        height: 50vh;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    .about-figure {
+        height: 75vh;
+        min-height: 50%;
+        width: auto;
+        min-width: unset;
+        max-height: unset;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about-image {
+        height: 100%;
+        width: auto;
+        margin: auto;
+    }
+
+}
