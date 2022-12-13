@@ -27,24 +27,10 @@
     "link": ""
 },
 {
-    "title": "Live location tracker",
-    "description": "In voorbereiding voor mijn eindwerk aan de Erasmushogeschool Brussel, heb ik onderzocht hoe ik live locatie kan delen met elkaar.",
-    "service": "App",
-    "content": ["https://i.ibb.co/LS4fBKj/Live-Location-Mockup.jpg", "https://player.vimeo.com/video/780172826?h=e4bc6ab6f7"],
-    "link": ""
-},
-{
-    "title": "Usersystem and notifications",
-    "description": "Een gebruikers systeem ligt aan de basis van zowat iedere app. Vandaar dat ik zelf dit ook eens onder de loep nam.",
-    "service": "App",
-    "content": ["https://i.ibb.co/n8H8KKv/Notifications-Signup-Mockup.jpg", "https://i.ibb.co/zPq6YbG/Notifications-Home-Mockup.jpg", "https://i.ibb.co/xCjqgkq/Notifications-Scan-Mockup.jpg", "https://i.ibb.co/HqB83bv/Notifications-Notification-Mockup.jpg", "https://player.vimeo.com/video/780173253?h=744abc02da"],
-    "link": ""
-},
-{
-    "title": "Background notifications",
-    "description": "Om ervoor te zorgen dat iedereen een correcte meding krijgt, heb ik met behulp van een backend een kleine app hier rond gebouwd.",
-    "service": "App",
-    "content": ["https://i.ibb.co/mNQLj69/Background-Notifications-Location-Mockup.jpg", "https://i.ibb.co/fk4Fbw0/Background-Notifications-Alarm-Mockup.jpg", "https://i.ibb.co/514NgbC/Background-Notifications-Update-Mockup.jpg", "https://i.ibb.co/cJT1LTW/Background-Notifications-Nearby-Mockup.jpg", "https://player.vimeo.com/video/780173840?h=f62b323e08"],
+    "title": "VJ @ Hangar58",
+    "description": "Ik mocht de VJ van dienst zijn voor het bedrijffeest van Scania. Het was een prachtig evenement op een prachtige locatie!",
+    "service": "VJ",
+    "content": ["https://i.ibb.co/GRtd7h3/Scania-vj.jpg"],
     "link": ""
 },
 {
@@ -69,10 +55,31 @@
     "link": ""
 },
 {
+    "title": "DV Media & Fotografie",
+    "service": "Frontend",
+    "description": "Wat een feestje! Geloof je het niet? Bekijk zeker de aftermovie dan eens! De welbekende fuif van Kaulille gaf mij toestemming om de editie van 2022 in beeld te brengen.",
+    "content": ["https://i.ibb.co/SRs3Qmq/DV-Media-en-Fotografie-website-homepage.jpg", "https://i.ibb.co/BTBr9W6/DV-Media-en-Fotografie-website-porfoliopage.jpg"],
+    "link": ""
+},
+{
+    "title": "Live location tracker",
+    "description": "In voorbereiding voor mijn eindwerk aan de Erasmushogeschool Brussel, heb ik onderzocht hoe ik live locatie kan delen met elkaar.",
+    "service": "App",
+    "content": ["https://i.ibb.co/LS4fBKj/Live-Location-Mockup.jpg", "https://player.vimeo.com/video/780172826?h=e4bc6ab6f7"],
+    "link": ""
+},
+{
     "title": "Moodvideo Beauty & More",
     "service": "Videography",
     "description": "Voor het schoonheidssalon Beauty And More in Bocholt maakte ik een rustige moodvideo om de kijker helemaal in de juiste stemming te brengen!",
     "content": ["https://i.ibb.co/LS2bqs4/beauty-and-more-thumbnail.jpg", "https://player.vimeo.com/video/755054800?h=37f71b1934"],
+    "link": ""
+},
+{
+    "title": "Usersystem and notifications",
+    "description": "Een gebruikers systeem ligt aan de basis van zowat iedere app. Vandaar dat ik zelf dit ook eens onder de loep nam.",
+    "service": "App",
+    "content": ["https://i.ibb.co/n8H8KKv/Notifications-Signup-Mockup.jpg", "https://i.ibb.co/zPq6YbG/Notifications-Home-Mockup.jpg", "https://i.ibb.co/xCjqgkq/Notifications-Scan-Mockup.jpg", "https://i.ibb.co/HqB83bv/Notifications-Notification-Mockup.jpg", "https://player.vimeo.com/video/780173253?h=744abc02da"],
     "link": ""
 },
 {
@@ -88,6 +95,13 @@
     "description": "Alle foto's van het LRV tornooi te Hechtel-Eksel op 3 september zijn hier terug te vinden. Klik op 'Bekijk meer' om alle foto's te bekijken en om naar de webshop te gaan.",
     "content": ["https://i.ibb.co/dKFt23y/lrv-ponys-hechtel-eksel.jpg"],
     "link": "https://www.oypo.nl/3A9E10B08107882F"
+},
+{
+    "title": "Background notifications",
+    "description": "Om ervoor te zorgen dat iedereen een correcte meding krijgt, heb ik met behulp van een backend een kleine app hier rond gebouwd.",
+    "service": "App",
+    "content": ["https://i.ibb.co/mNQLj69/Background-Notifications-Location-Mockup.jpg", "https://i.ibb.co/fk4Fbw0/Background-Notifications-Alarm-Mockup.jpg", "https://i.ibb.co/514NgbC/Background-Notifications-Update-Mockup.jpg", "https://i.ibb.co/cJT1LTW/Background-Notifications-Nearby-Mockup.jpg", "https://player.vimeo.com/video/780173840?h=f62b323e08"],
+    "link": ""
 },
 {
     "title": "Sezoensrally 2022",

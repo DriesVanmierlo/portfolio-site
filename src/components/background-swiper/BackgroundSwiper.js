@@ -56,7 +56,7 @@ function BackgroundSwiper() {
         </SwiperSlide>
         <SwiperSlide>
             <figure className='background-swiper-figure'>
-                <img className='background-swiper-image' src="https://i.ibb.co/5Y99kjc/sezoensrally-2022-monnens.jpg" />
+                <img className='background-swiper-image' src="https://i.ibb.co/GRtd7h3/Scania-vj.jpg" />
             </figure>
         </SwiperSlide>
       </Swiper>
