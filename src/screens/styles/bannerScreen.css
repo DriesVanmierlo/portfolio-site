@@ -17,6 +17,13 @@
     overflow: hidden;
 }
 
+.hero-video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
 .hero-video {
     position: relative;
     margin: 0;

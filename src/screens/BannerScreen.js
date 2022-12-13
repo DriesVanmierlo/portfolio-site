@@ -12,9 +12,9 @@ function BannerScreen() {
   return (
       <MouseParallaxContainer>
     <div id='home' className='banner-screen-container'>
-
-        {/* <BackgroundImage className='banner-screen-background' image={background_placeholder} opacity={0.7} /> */}
+      <div className='hero-video-container'>
         <video src="https://res.cloudinary.com/dijwniqzx/video/upload/v1670943816/Hero-Movie-V1_frm2tw.mp4" autoPlay muted loop className="hero-video" type="video/mp4"/>
+      </div>
         <div className='banner-screen-content-container'>
             <ScrollParallax>
             <div className='banner-vanmierlo'>Vanmierlo</div>
