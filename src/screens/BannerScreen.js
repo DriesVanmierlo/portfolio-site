@@ -14,7 +14,7 @@ function BannerScreen() {
     <div id='home' className='banner-screen-container'>
 
         {/* <BackgroundImage className='banner-screen-background' image={background_placeholder} opacity={0.7} /> */}
-        <video src="https://res.cloudinary.com/dijwniqzx/video/upload/v1664633478/DV%20Media%20en%20Fotografie/Website/Aftermovie_BalTropical22_V3_Trim_a0yajk.mp4" autoPlay muted loop className="hero-video" type="video/mp4"/>
+        <video src="https://res.cloudinary.com/dijwniqzx/video/upload/v1670943816/Hero-Movie-V1_frm2tw.mp4" autoPlay muted loop className="hero-video" type="video/mp4"/>
         <div className='banner-screen-content-container'>
             <ScrollParallax>
             <div className='banner-vanmierlo'>Vanmierlo</div>

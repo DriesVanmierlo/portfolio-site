@@ -50,9 +50,9 @@ function AboutScreen() {
         <div className="about-content-container">
             
             <SectionTitle title='About me' />
-            <motion.h2 ref={ref} animate={animationSubtitle} className='about-hey'>Hey, ik ben Dries!</motion.h2>
-            <motion.p animate={animationText} className='about-text'>Ik ben een zelfstandig student-ondernemer die zich toelegt op alle beeld, ontwerp en web opdrachten. Ik studeer momenteel Multimedia en Creatieve Technologieën aan de Erasmushogeschool in Brussel.</motion.p>
-            <motion.p animate={animationText} className='about-text'>Steeds probeer ik mijn grenzen te verleggen om een optimaal resultaat te creëren. Ik ben gespecialiseerd op verschillende gebieden, omdat ik het belangrijk vind dat ik steeds alles over "the bigger picture" weet. Hierdoor werken al mijn diensten perfect met mekaar en heeft u maar één man nodig!</motion.p>
+            <motion.h2 ref={ref} animate={animationSubtitle} className='about-hey'>Hey, I'm Dries!</motion.h2>
+            <motion.p animate={animationText} className='about-text'>I'm a student Multimedia and Creative Technologies. I love making content in every way possible. My skills reach over multiple domains so I can provide you the best visual results!</motion.p>
+            <motion.p animate={animationText} className='about-text'>When I was young, I wanted to be the next Enzo Knol. I grew a passion for graphic design and that turned out great! Over the years, I learned many skills that make me a true multimedia professional. Have a look at my expertises, you won't be disappointed, I promise.</motion.p>
         </div>
         <AnimatedProfile />
         
