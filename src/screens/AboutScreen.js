@@ -1,21 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import './styles/aboutScreen.css'
 import BackgroundImage from '../components/background-image/BackgroundImage'
 import background_placeholder from '../assets/images/about_screen_background_placeholder.jpg'
-import profilePicture from '../assets/images/profile_transparent.png'
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer'
 import SectionTitle from '../components/section-title/SectionTitle'
 import DeviderLines from '../components/devider-lines/DeviderLines'
 import AnimatedProfile from '../components/animated-profile/AnimatedProfile'
 
-
 function AboutScreen() {
 
   const {ref, inView} = useInView();
   const animationSubtitle = useAnimation();
   const animationText = useAnimation();
-  const animationFigure = useAnimation();
 
   useEffect(() => {
       if(inView){
@@ -33,13 +30,6 @@ function AboutScreen() {
               type: 'spring', duration: 1.5, bounce: 0, delay: 0.7
           }
       });
-      animationFigure.start({
-          x: 0,
-          opacity: 1,
-          transition: {
-              type: 'spring', duration: 1.5, bounce: 0, delay: 0.5
-          }
-      });
       }
       if(!inView){
         animationSubtitle.start({
@@ -50,11 +40,6 @@ function AboutScreen() {
           x: -25,
           opacity: 0
         });
-        animationFigure.start({
-          x: 50,
-          opacity: 0
-        });
-        
       }
   }, [inView])
 
