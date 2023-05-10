@@ -20,6 +20,10 @@ function PortfolioModal(props){
         }
     });
 
+    // const menuList = document.getElementsByClassName("nav-bar-list");
+    // console.log(menuList)
+    // menuList.onClick(() => props.closeModal(false))
+
     return(
         <div className='portfolio-modal-container'>
             <div className='portfolio-modal-content'>

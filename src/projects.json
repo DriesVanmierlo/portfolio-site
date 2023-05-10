@@ -1,112 +1,203 @@
 [{
+    "title": "Like You - Jessica Bouhez",
+    "description": "Voor de akoestische versie van Jessica's eerste single trokken we samen de zaal in. Samen met Robbe, achter de piano, van Altered Records maakten we deze videoclip. Alle beelden zijn door mij geschoten.",
+    "service": "Videography",
+    "content": [
+      "https://i.ibb.co/dKLGKmj/Jessica-Bouhez-Like-You.jpg",
+      "https://player.vimeo.com/video/812516958?h=423e3ce5a2"
+    ],
+    "link": "https://www.youtube.com/watch?v=Ib7tZfgv4po&ab_channel=JessicaBouhez"
+  },
+  {
     "title": "Steam redesign",
     "description": "Steam is een zeer groot en populair software-distributieplatform met de focus op games. Voor het vak Front-End in mijn opleiding, mocht ik deze site onder handen nemen. Eerst onderzoeken wat de huidige pijnpunten zijn, dan een verbeterd ontwerp opmaken en vervolgens de site programmeren. Dit is een werk geworden waar ik trots op ben!",
     "service": "Frontend",
-    "content": ["https://i.ibb.co/pWhxH1H/steam-redesign-homepage.jpg", "https://i.ibb.co/dDVBFv9/steam-redesign-detailpage.jpg", "https://player.vimeo.com/video/724846260?h=6418b1bebe"],
+    "content": [
+      "https://i.ibb.co/pWhxH1H/steam-redesign-homepage.jpg",
+      "https://i.ibb.co/dDVBFv9/steam-redesign-detailpage.jpg",
+      "https://player.vimeo.com/video/724846260?h=6418b1bebe"
+    ],
     "link": ""
-},
-{
+  },
+  {
+    "title": "18 jarige Bocholt",
+    "description": "Na enkele jaren afwezigheid was er dan terug een feestje in Bocholt! Ik mocht fotograaf zijn voor deze avond en heb wat mooie plaatjes kunnen maken! Alle foto's kun je terugvinden op mijn Facebookpagina.",
+    "service": "Photography",
+    "content": [
+      "https://i.ibb.co/VMgrGFY/18-jarige-bocholt-crowd-05.jpg",
+      "https://i.ibb.co/stbc0D8/18-jarige-bocholt-geposeerd-01.jpg",
+      "https://i.ibb.co/8rcHHYF/18-jarige-bocholt-geposeerd-04.jpg",
+      "https://i.ibb.co/j4WzwJ4/18-jarige-bocholt-crowd-06.jpg",
+      "https://i.ibb.co/YNXSmLx/18-jarige-bocholt-geposeerd-02.jpg",
+      "https://i.ibb.co/yhDnYmH/18-jarige-bocholt-geposeerd-03.jpg",
+      "https://i.ibb.co/nssVw83/18-jarige-bocholt-crowd-01.jpg"
+    ],
+    "link": "https://www.facebook.com/media/set/?set=a.223984103585192&type=3"
+  },
+  {
     "title": "Studentenagenda EhB",
     "description": "Mijn school, de Erasmushogeschool Brussel, organiseerde een ontwerpwedstrijd. Wie maakt er het mooiste ontwerp voor de cover van de studentenagenda? Ik ben als winnaar verkozen en mijn werk is binnenkort op 6000 exemplaren te zien!",
     "service": "Graphic Design",
-    "content": ["https://i.ibb.co/4ML9KTK/studentenagenda-ehb-22-23.jpg", "https://i.ibb.co/L1SP27n/Studentenagenda-22-23.png"],
+    "content": [
+      "https://i.ibb.co/4ML9KTK/studentenagenda-ehb-22-23.jpg",
+      "https://i.ibb.co/L1SP27n/Studentenagenda-22-23.png"
+    ],
     "link": ""
-},
-{
+  },
+  {
     "title": "Deliveroo clone",
     "description": "Om mij te specialiseren in React Native heb ik een clone gemaakt van de welbekende app Deliveroo.",
     "service": "App",
-    "content": ["https://i.ibb.co/FJGcKwq/Deliveroo-Home-Mockup.jpg", "https://i.ibb.co/SfCt6LW/Deliveroo-Delivery-Mockup.jpg", "https://player.vimeo.com/video/780172191?h=ed3d27e618"],
+    "content": [
+      "https://i.ibb.co/FJGcKwq/Deliveroo-Home-Mockup.jpg",
+      "https://i.ibb.co/SfCt6LW/Deliveroo-Delivery-Mockup.jpg",
+      "https://player.vimeo.com/video/780172191?h=ed3d27e618"
+    ],
     "link": ""
-},
-{
+  },
+  {
     "title": "VJ @ Hangar58",
     "description": "Ik mocht de VJ van dienst zijn voor het bedrijfsfeest van Scania. Het was een prachtig evenement op een prachtige locatie! Een VJ is een 'video jockey', dat betekent in dit geval dat ik de schermen aanstuur!",
     "service": "VJ",
-    "content": ["https://i.ibb.co/GRtd7h3/Scania-vj.jpg", "https://player.vimeo.com/video/780738644?h=6f5ac0ebb6"],
+    "content": [
+      "https://i.ibb.co/GRtd7h3/Scania-vj.jpg",
+      "https://player.vimeo.com/video/780738644?h=6f5ac0ebb6"
+    ],
     "link": ""
-},
-{
+  },
+  {
     "title": "Kapsamazing",
     "description": "In mijn opleiding kregen we de kans om een full stack website te maken naar keuze. Van concept tot ontwerp tot doordachte uitwerking, met als resultaat een speelse, strakke en functionele website! Op de site kunnen gebruikers de kapsalon(gerecht) die ze net hebben gegeten een rating geven. Op deze manier kunnen de bezoekers van de site zien waar ze de beste kapsalons maken!",
     "service": "Frontend",
-    "content": ["https://i.ibb.co/SxhXTxv/kapsamazing-homepage.jpg", "https://i.ibb.co/LRKq5vP/kapsamazing-detailpage.jpg", "https://player.vimeo.com/video/724840144?h=a90b78fd90"],
+    "content": [
+      "https://i.ibb.co/SxhXTxv/kapsamazing-homepage.jpg",
+      "https://i.ibb.co/LRKq5vP/kapsamazing-detailpage.jpg",
+      "https://player.vimeo.com/video/724840144?h=a90b78fd90"
+    ],
     "link": ""
-},
-{
+  },
+  {
     "title": "Falsive Records Leuven",
     "service": "Photography",
     "description": "In het voorjaar mocht ik voor dit Nederlandse platenlabel hun techno showcase in beeld brengen. De wens was om zwart-wit foto's te maken maar als ik wou, mocht ik ook zelf wat experimenteren. De reactie: boven verwachtingen!",
-    "content": ["https://i.ibb.co/xgpw7Zt/falsive-records-leuven-dancing-crowd.jpg", "https://i.ibb.co/SPYdgT0/falsive-records-leuven-dj.jpg", "https://i.ibb.co/vJPgYgL/falsive-records-leuven-hands-in-the-air.jpg", "https://i.ibb.co/QnJ6xGc/falsive-records-leuven-dj-in-action.jpg", "https://i.ibb.co/BG3SMNP/falsive-records-leuven-dj-behind-crowd.jpg", "https://i.ibb.co/QQsnMB5/falsive-records-leuven-dancing-crowd-with-laser.jpg"],
+    "content": [
+      "https://i.ibb.co/xgpw7Zt/falsive-records-leuven-dancing-crowd.jpg",
+      "https://i.ibb.co/SPYdgT0/falsive-records-leuven-dj.jpg",
+      "https://i.ibb.co/vJPgYgL/falsive-records-leuven-hands-in-the-air.jpg",
+      "https://i.ibb.co/QnJ6xGc/falsive-records-leuven-dj-in-action.jpg",
+      "https://i.ibb.co/BG3SMNP/falsive-records-leuven-dj-behind-crowd.jpg",
+      "https://i.ibb.co/QQsnMB5/falsive-records-leuven-dancing-crowd-with-laser.jpg"
+    ],
     "link": "https://www.facebook.com/Falsiverecords/posts/pfbid0KgZM4rttZ7vhtpUKXfnLSHsV69pdhgf8y6SFtcfZLVN9oNT6aFUzB4wueoDPLXY4l"
-},
-{
+  },
+  {
     "title": "Totebag Fak Letteren",
     "description": "Voor het studentencafé Fak Letteren in Leuven mocht ik de totebag en pins ontwerpen! Voor deze gezellige fakbar vind ik het een geslaagd resultaat!",
     "service": "Graphic Design",
-    "content": ["https://i.ibb.co/b7ZbBwn/fak-letteren-totebag.jpg", "https://i.ibb.co/W3G1qLk/fak-letteren-pins.png"],
+    "content": [
+      "https://i.ibb.co/b7ZbBwn/fak-letteren-totebag.jpg",
+      "https://i.ibb.co/W3G1qLk/fak-letteren-pins.png"
+    ],
     "link": ""
-},
-{
+  },
+  {
     "title": "Bal Tropical 2022 Aftermovie",
     "service": "Videography",
     "description": "Wat een feestje! Geloof je het niet? Bekijk zeker de aftermovie dan eens! De welbekende fuif van Kaulille gaf mij toestemming om de editie van 2022 in beeld te brengen.",
-    "content": ["https://i.ibb.co/KFN2WFV/Bal-Tropical-2022-thumbnail.jpg", "https://player.vimeo.com/video/755049491?h=4784575d0b"],
+    "content": [
+      "https://i.ibb.co/KFN2WFV/Bal-Tropical-2022-thumbnail.jpg",
+      "https://player.vimeo.com/video/755049491?h=4784575d0b"
+    ],
     "link": ""
-},
-{
+  },
+  {
     "title": "DV Media & Fotografie",
     "service": "Frontend",
     "description": "Ik heb zelf een media en fotografie bedrijf gestart als student. Alles heb ik zelf ontwikkeld en ontworpen. Dit is mijn bedrijfswebsite, neem gerust een kijkje door op 'see more' te klikken.",
-    "content": ["https://i.ibb.co/SRs3Qmq/DV-Media-en-Fotografie-website-homepage.jpg", "https://i.ibb.co/BTBr9W6/DV-Media-en-Fotografie-website-porfoliopage.jpg"],
+    "content": [
+      "https://i.ibb.co/SRs3Qmq/DV-Media-en-Fotografie-website-homepage.jpg",
+      "https://i.ibb.co/BTBr9W6/DV-Media-en-Fotografie-website-porfoliopage.jpg"
+    ],
     "link": "https://www.dvmedia.be"
-},
-{
+  },
+  {
     "title": "Live location tracker",
     "description": "In voorbereiding voor mijn eindwerk aan de Erasmushogeschool Brussel, heb ik onderzocht hoe ik live locatie kan delen met elkaar.",
     "service": "App",
-    "content": ["https://i.ibb.co/LS4fBKj/Live-Location-Mockup.jpg", "https://player.vimeo.com/video/780172826?h=e4bc6ab6f7"],
+    "content": [
+      "https://i.ibb.co/LS4fBKj/Live-Location-Mockup.jpg",
+      "https://player.vimeo.com/video/780172826?h=e4bc6ab6f7"
+    ],
     "link": ""
-},
-{
+  },
+  {
     "title": "Moodvideo Beauty & More",
     "service": "Videography",
     "description": "Voor het schoonheidssalon Beauty And More in Bocholt maakte ik een rustige moodvideo om de kijker helemaal in de juiste stemming te brengen!",
-    "content": ["https://i.ibb.co/LS2bqs4/beauty-and-more-thumbnail.jpg", "https://player.vimeo.com/video/755054800?h=37f71b1934"],
+    "content": [
+      "https://i.ibb.co/LS2bqs4/beauty-and-more-thumbnail.jpg",
+      "https://player.vimeo.com/video/755054800?h=37f71b1934"
+    ],
     "link": ""
-},
-{
+  },
+  {
     "title": "Usersystem and notifications",
     "description": "Een gebruikers systeem ligt aan de basis van zowat iedere app. Vandaar dat ik zelf dit ook eens onder de loep nam.",
     "service": "App",
-    "content": ["https://i.ibb.co/n8H8KKv/Notifications-Signup-Mockup.jpg", "https://i.ibb.co/zPq6YbG/Notifications-Home-Mockup.jpg", "https://i.ibb.co/xCjqgkq/Notifications-Scan-Mockup.jpg", "https://i.ibb.co/HqB83bv/Notifications-Notification-Mockup.jpg", "https://player.vimeo.com/video/780173253?h=744abc02da"],
+    "content": [
+      "https://i.ibb.co/n8H8KKv/Notifications-Signup-Mockup.jpg",
+      "https://i.ibb.co/zPq6YbG/Notifications-Home-Mockup.jpg",
+      "https://i.ibb.co/xCjqgkq/Notifications-Scan-Mockup.jpg",
+      "https://i.ibb.co/HqB83bv/Notifications-Notification-Mockup.jpg",
+      "https://player.vimeo.com/video/780173253?h=744abc02da"
+    ],
     "link": ""
-},
-{
+  },
+  {
     "title": "Beauty & More",
     "service": "Photography",
     "description": "Beauty And More is een schoonheidssalon in Bocholt. Met de vraag om professionele foto's te maken voor zowel de website als sociale media, ben ik aan de slag gegaan!",
-    "content": ["https://i.ibb.co/rFhTgqb/beauty-and-more-close-up.jpg", "https://i.ibb.co/7jx1kRY/beauty-and-more-hete-doek.jpg", "https://i.ibb.co/n3d5jzk/beauty-and-more-balie.jpg", "https://i.ibb.co/mzZTKqX/beauty-and-more-productenrek.jpg", "https://i.ibb.co/1vNBbGd/beauty-and-more-met-vergrootglas.jpg", "https://i.ibb.co/x1HXzPf/beauty-and-more-jelly-mask.jpg"],
+    "content": [
+      "https://i.ibb.co/rFhTgqb/beauty-and-more-close-up.jpg",
+      "https://i.ibb.co/7jx1kRY/beauty-and-more-hete-doek.jpg",
+      "https://i.ibb.co/n3d5jzk/beauty-and-more-balie.jpg",
+      "https://i.ibb.co/mzZTKqX/beauty-and-more-productenrek.jpg",
+      "https://i.ibb.co/1vNBbGd/beauty-and-more-met-vergrootglas.jpg",
+      "https://i.ibb.co/x1HXzPf/beauty-and-more-jelly-mask.jpg"
+    ],
     "link": ""
-},
-{
+  },
+  {
     "title": "LRV pony's Hechel-Eksel",
     "service": "Photography",
     "description": "Alle foto's van het LRV tornooi te Hechtel-Eksel op 3 september zijn hier terug te vinden. Klik op 'Bekijk meer' om alle foto's te bekijken en om naar de webshop te gaan.",
     "content": ["https://i.ibb.co/dKFt23y/lrv-ponys-hechtel-eksel.jpg"],
     "link": "https://www.oypo.nl/3A9E10B08107882F"
-},
-{
+  },
+  {
     "title": "Background notifications",
     "description": "Om ervoor te zorgen dat iedereen een correcte meding krijgt, heb ik met behulp van een backend een kleine app hier rond gebouwd.",
     "service": "App",
-    "content": ["https://i.ibb.co/mNQLj69/Background-Notifications-Location-Mockup.jpg", "https://i.ibb.co/fk4Fbw0/Background-Notifications-Alarm-Mockup.jpg", "https://i.ibb.co/514NgbC/Background-Notifications-Update-Mockup.jpg", "https://i.ibb.co/cJT1LTW/Background-Notifications-Nearby-Mockup.jpg", "https://player.vimeo.com/video/780173840?h=f62b323e08"],
+    "content": [
+      "https://i.ibb.co/mNQLj69/Background-Notifications-Location-Mockup.jpg",
+      "https://i.ibb.co/fk4Fbw0/Background-Notifications-Alarm-Mockup.jpg",
+      "https://i.ibb.co/514NgbC/Background-Notifications-Update-Mockup.jpg",
+      "https://i.ibb.co/cJT1LTW/Background-Notifications-Nearby-Mockup.jpg",
+      "https://player.vimeo.com/video/780173840?h=f62b323e08"
+    ],
     "link": ""
-},
-{
+  },
+  {
     "title": "Sezoensrally 2022",
     "service": "Photography",
     "description": "Als Bocholtenaar kon ik natuurlijk de Sezoensrally niet missen. Dit evenement waarbij blitse rallyauto's over de maaskiezels crossen, zorgde voor spectaculaire beelden!",
-    "content": ["https://i.ibb.co/5Y99kjc/sezoensrally-2022-monnens.jpg", "https://i.ibb.co/q0YPs4N/sezoensrally-2022-junior.jpg", "https://i.ibb.co/3SDnDfk/sezoensrally-2022-munster.jpg", "https://i.ibb.co/S39r3Kk/sezoensrally-2022-bux.jpg", "https://i.ibb.co/jgj0Z7B/sezoensrally-2022-verschuren.jpg"],
+    "content": [
+      "https://i.ibb.co/5Y99kjc/sezoensrally-2022-monnens.jpg",
+      "https://i.ibb.co/q0YPs4N/sezoensrally-2022-junior.jpg",
+      "https://i.ibb.co/3SDnDfk/sezoensrally-2022-munster.jpg",
+      "https://i.ibb.co/S39r3Kk/sezoensrally-2022-bux.jpg",
+      "https://i.ibb.co/jgj0Z7B/sezoensrally-2022-verschuren.jpg"
+    ],
     "link": "https://www.facebook.com/media/set/?set=a.144661401517463&type=3"
-}]
+  }
+]

@@ -62,7 +62,7 @@
     font-weight: 900;
     font-size: 6em;
     color: transparent;
-    -webkit-text-stroke: 0.5px var(--yellow);
+    -webkit-text-stroke: 1px var(--yellow);
     transform: rotate(-90deg);
     top: 38%;
     right: calc(-345px + 100vw);
