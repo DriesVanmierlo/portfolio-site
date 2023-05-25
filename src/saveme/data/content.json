@@ -1,0 +1,47 @@
+{
+  "images": [
+    "https://i.ibb.co/2gCb45y/saveme-alarm-mockup.png",
+    "https://i.ibb.co/wN5SsqZ/saveme-code-mockup.png",
+    "https://i.ibb.co/6N43NMR/saveme-flag-mockup.png",
+    "https://i.ibb.co/qjxfQW2/saveme-friends-mockup.png",
+    "https://i.ibb.co/7XSy1bM/saveme-home-mockup.png",
+    "https://i.ibb.co/DLtrkSt/saveme-landing-mockup.png",
+    "https://i.ibb.co/TvS8ChN/saveme-profile-mockup.png",
+    "https://i.ibb.co/18XKQMB/saveme-promo-mockup.png",
+    "https://i.ibb.co/fDyYK6g/saveme-settings-mockup.png",
+    "https://i.ibb.co/ys2P3dR/saveme-tracking-mockup.png"
+  ],
+  "explainerSteps": [
+    {
+      "title": "voeg vertrouwde vrienden toe",
+      "text": [
+        "Voeg vrienden toe die je vertrouwt, deze zullen je locatie kunnen volgen wanneer jij je alarm activeert.",
+        "Ga je op stap met je vrienden? Haal voor dat jullie vertrekken even je SaveMe app boven en voeg elkaar toe. Zo ben je zeker dat er altijd hulp in de buurt is!"
+      ],
+      "image": "https://i.ibb.co/qjxfQW2/saveme-friends-mockup.png"
+    },
+    {
+      "title": "Activeer je alarm",
+      "text": [
+        "Word je seksueel lastig gevallen en voel je je onveilig, schuif dan de rode alarmknop naar rechts om je alarm te activeren. Je vrienden worden nu op de hoogte gebracht van je onveilige situatie.",
+        "Probeer terwijl hulp onderweg is zo veel mogelijk tijd te rekken. Leidt de storende persoon zo lang mogelijk af, zo geef je je vrienden meer tijd om te kunnen ingrijpen."
+      ],
+      "image": "https://i.ibb.co/7XSy1bM/saveme-home-mockup.png"
+    },
+    {
+      "title": "Je vrienden zijn onderweg",
+      "text": [
+        "Je vrienden zien je alarm verschijnen en kunnen je locatie volgen. Zo kunnen zij naar jou toe komen en subtiel ingrijpen op je onveilige situatie. ",
+        "Wanneer je vrienden er zijn, speel mee met hun verhaal en verwijder jezelf van de onveilige situatie."
+      ],
+      "image": "https://i.ibb.co/ys2P3dR/saveme-tracking-mockup.png"
+    },
+    {
+      "title": "Annuleer je alarm",
+      "text": [
+        "Wanneer je je terug veilig voelt, annuleer je je alarm door de witte schuifknop naar links te slepen. Scan vervolgens de QR-code van je redder om je veiligheid te bevestigen."
+      ],
+      "image": "https://i.ibb.co/2gCb45y/saveme-alarm-mockup.png"
+    }
+  ]
+}
