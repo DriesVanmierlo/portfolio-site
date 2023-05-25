@@ -43,5 +43,19 @@
       ],
       "image": "https://i.ibb.co/2gCb45y/saveme-alarm-mockup.png"
     }
+  ],
+  "faq": [
+    {
+      "question": "Wanneer kan ik de app downloaden?",
+      "answer": "Op dit moment zijn we nog druk bezig met het afwerken, promoten en zoeken naar partners om dit project te realiseren. Je volgt best het Instagram account als je op de hoogte wilt blijven van de vorderingen."
+    },
+    {
+      "question": "Kan iedereen mijn alarm zien?",
+      "answer": "Nee, enkel vrienden die je zelf hebt toegevoegd kunnen je alarm zien."
+    },
+    {
+      "question": "Wanneer stuur ik het best een alarm?",
+      "answer": "Voel je je seksueel bedreigd of verwacht je dat je..."
+    }
   ]
 }

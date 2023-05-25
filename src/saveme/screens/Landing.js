@@ -5,6 +5,7 @@ import ContentView from "../components/ContentView";
 import Title from "../components/Title";
 import Paragraph from "../components/Paragraph";
 import Explainer from "../components/Explainer";
+import FAQ from "../components/FAQ";
 
 export default function Landing() {
   return (
@@ -20,6 +21,7 @@ export default function Landing() {
         </Paragraph>
       </ContentView>
       <Explainer />
+      <FAQ />
     </div>
   );
 }

@@ -138,15 +138,29 @@
   right: 12px;
   top: 200px;
   color: var(--neutral_100);
-  text-shadow:none;
+  text-shadow: none;
 }
 .swiper-button-prev {
   left: 12px;
   top: 200px;
   color: var(--neutral_100);
-  text-shadow:none;
+  text-shadow: none;
 }
 
 .swiper-button-disabled {
   opacity: 0 !important;
+}
+
+.question-container {
+  margin-bottom: 28px;
+}
+
+.question-header {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.faq-question {
+  margin-bottom: 0;
 }
