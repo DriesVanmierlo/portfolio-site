@@ -22,7 +22,7 @@ function Footer() {
       </ContentView>
       <div className="footer-container">
         <div className="content-container">
-          <ContentView>
+          <ContentView className="saveme-footer-container">
             <figure className="footer-figure">
               <img
                 className="footer-image"
@@ -60,6 +60,9 @@ function Footer() {
               </div>
             </div>
           </ContentView>
+          <div className="copyright-disclaimer">
+            &copy; 2023 <a href="https://driesvanmierlo.be/">Dries Vanmierlo</a>
+          </div>
         </div>
       </div>
     </div>

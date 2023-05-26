@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/landing.css";
 import Banner from "../components/Banner";
 import ContentView from "../components/ContentView";
@@ -11,8 +11,22 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Helmet } from "react-helmet";
+import Menu from "../components/Menu";
+import What from "../components/What";
 
 export default function Landing() {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    window.addEventListener(
+      "resize",
+      function (event) {
+        setScreenWidth(this.window.innerWidth);
+      },
+      true
+    );
+  });
+
   return (
     <>
       <Helmet>
@@ -23,18 +37,8 @@ export default function Landing() {
       <div className="container">
         <Header />
         <Banner />
-        <div className="content-container">
-          <ContentView className="section">
-            <Title id="wat-is-saveme">Wat is SaveMe?</Title>
-            <Paragraph>
-              SaveMe is een app waarmee je een stil alarm kan uitsturen naar
-              vrienden wanneer je seksueel lastig gevallen wordt. Deze vrienden
-              zullen je alarm zien verschijnen en kunnen je locatie volgen. Op
-              deze manier kunnen zij subtiel je uit de onvielige situatie
-              redden.
-            </Paragraph>
-          </ContentView>
-        </div>
+        {screenWidth >= 768 && <Menu />}
+        <What />
         <Explainer />
         <FAQ />
         <Why />

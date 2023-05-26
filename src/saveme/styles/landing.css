@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-  width: 0px;
+  display: none;
 }
 
 body {
@@ -81,6 +81,8 @@ body {
   display: flex;
   justify-content: center;
   overflow: hidden;
+  pointer-events: none;
+  align-self: center;
 }
 
 .saveme-banner-image {
@@ -89,6 +91,12 @@ body {
   object-fit: contain;
   -o-object-position: center;
   object-position: center;
+  pointer-events: none;
+}
+
+.banner-content-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .banner-content {
@@ -122,7 +130,13 @@ body {
   border-radius: 8px;
   font-family: "poppins", sans-serif;
   font-weight: 500;
+  font-size: 1.1rem;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+}
+
+.button-solid:hover {
+  background-color: var(--primary_600);
+  color: var(--neutral_100);
 }
 
 .button-outline {
@@ -136,6 +150,11 @@ body {
   border-radius: 8px;
   font-family: "poppins", sans-serif;
   font-weight: 500;
+}
+
+.button-outline:hover {
+  background-color: var(--neutral_100);
+  color: var(--primary_500);
 }
 
 .buttons-container {
@@ -154,10 +173,19 @@ body {
   max-width: 912px;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 12px;
+}
+
+.what-figure {
+  display: none;
 }
 
 .explainer-swiper-container {
-  background-color: var(--primary_500);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #ee4f58 0%,
+    var(--primary_500) 100%
+  );
   border-radius: 15px;
 }
 
@@ -218,6 +246,10 @@ body {
   opacity: 0 !important;
 }
 
+.swiper-notification {
+  display: none;
+}
+
 .faq-intro {
   margin-bottom: 32px;
 }
@@ -258,9 +290,10 @@ body {
   padding: 0px 10px;
   background-color: var(--neutral_200);
   border-radius: 8px;
+  width: fit-content;
 }
 
-.about-figure {
+.saveme-about-figure {
   padding: 0;
   margin: 0;
   margin-top: 12px;
@@ -273,7 +306,7 @@ body {
   margin: auto;
 }
 
-.about-image {
+.saveme-about-image {
   width: 100%;
   -o-object-fit: contain;
   object-fit: contain;
@@ -308,7 +341,6 @@ body {
 .footer-container {
   background-color: var(--primary_500);
   padding-top: 24px;
-  padding-bottom: 64px;
 }
 
 .footer-figure {
@@ -316,7 +348,7 @@ body {
   margin: 0;
   margin-top: 12px;
   width: 30%;
-  max-width: 200px;
+  max-width: 125px;
   position: unset;
   display: flex;
   justify-content: center;
@@ -353,4 +385,136 @@ body {
   text-decoration: none;
   color: var(--primary_300);
   padding: 5px 0px;
+}
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  z-index: 1000;
+}
+.menu-link {
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--neutral_900);
+  font-weight: 300;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.menu-link:hover {
+  background-color: var(--neutral_300);
+}
+
+.copyright-disclaimer {
+  padding: 0;
+  position: unset;
+  font-size: 0.9rem;
+  margin-top: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .banner-content-container {
+    flex-direction: row;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .banner-content {
+    align-self: center;
+    margin: auto;
+    padding-top: 32px;
+    max-width: 400px;
+  }
+
+  .mockup-placeholder {
+    width: 100vw;
+    aspect-ratio: 1.125;
+    width: 50vw;
+    max-width: 500px;
+  }
+
+  .saveme-banner-figure {
+    position: absolute;
+    width: 50vw;
+    max-width: 600px;
+    overflow: unset;
+    align-self: unset;
+  }
+
+  .what-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .what-figure {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .what-image {
+    width: 150%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+  }
+
+  .what-container > div {
+    max-width: 400px;
+  }
+
+  .explainer-step-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .explainer-figure {
+    order: 1;
+  }
+
+  .explainer-step-content-container {
+    padding-top: 64px;
+    padding-left: 24px;
+  }
+
+  .info-list-container {
+    flex-direction: row;
+  }
+
+  .saveme-about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 64px;
+  }
+
+  .saveme-footer-container {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+  }
+  .footer-figure {
+    margin: 0;
+  }
+
+  .footer-links-container {
+    margin: 0;
+    gap: 64px;
+  }
+
+  .footer-link-section {
+    width: unset;
+    margin: auto;
+    align-items: start;
+  }
 }

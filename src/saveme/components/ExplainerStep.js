@@ -13,7 +13,7 @@ function ExplainerStep({ step }) {
           alt="SaveMe app mockup"
         />
       </figure>
-      <ContentView>
+      <ContentView className="explainer-step-content-container">
         <Subtitle color="light">{step.title}</Subtitle>
         {step.text.map((item) => (
           <Paragraph color="light">{item}</Paragraph>
