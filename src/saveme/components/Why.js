@@ -12,6 +12,18 @@ function Why() {
           Er zijn genoeg bronnen die ons vertellen dat er nog steeds een grote
           problematiek is rond seksuele intimidatie en seksueel geweld.
         </Paragraph>
+        <Paragraph>
+          Uit de{" "}
+          <a className="saveme-link"
+            href="https://www.belspo.be/belspo/brain-be/projects/FinalReports/UN-MENAMAIS_FinalRep_v2.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            UN-MENAMAIS-studie
+          </a>
+          , waarin meer dan 5.000 Belgen bevraagd werden, kunnen we het volgende
+          afleiden:
+        </Paragraph>
         <div className="info-list-container">
           <div className="info-cards-container">
             <div className="why-info-card">

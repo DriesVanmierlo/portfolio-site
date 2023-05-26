@@ -11,6 +11,14 @@ body {
   background-color: var(--neutral_100);
 }
 
+.saveme-link {
+  color: var(--primary_500);
+  text-decoration: none;
+}
+.saveme-link:hover {
+  text-decoration: underline;
+}
+
 .header {
   padding-top: 6px;
 }
@@ -167,6 +175,10 @@ body {
 .section {
   padding-top: 64px;
   padding-bottom: 64px;
+}
+
+.what-container {
+  padding-bottom: 0;
 }
 
 .content-container {

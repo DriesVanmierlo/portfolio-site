@@ -11,13 +11,15 @@ function Footer() {
       <ContentView className="partner-section">
         <div className="content-container">
           <Subtitle>In samenwerking met:</Subtitle>
-          <figure className="partner-figure">
-            <img
-              className="partner-image"
-              src={logoJEZ}
-              alt="Dries Vanmierlo"
-            />
-          </figure>
+          <a
+            href="https://www.jezofficial.be/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <figure className="partner-figure">
+              <img className="partner-image" src={logoJEZ} alt="JEZ! logo" />
+            </figure>
+          </a>
         </div>
       </ContentView>
       <div className="footer-container">
@@ -27,7 +29,7 @@ function Footer() {
               <img
                 className="footer-image"
                 src={savemeLogo}
-                alt="Dries Vanmierlo"
+                alt="SaveMe logo"
               />
             </figure>
             <div className="footer-links-container">

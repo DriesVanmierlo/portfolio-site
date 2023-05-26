@@ -23,6 +23,8 @@ function Banner() {
             <a
               href="https://www.instagram.com/savemeappp/"
               className="button-solid"
+              target="_blank"
+              rel="noreferrer"
             >
               Blijf up-to-date!
             </a>
