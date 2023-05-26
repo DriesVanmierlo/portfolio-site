@@ -8,7 +8,7 @@ import ExplainerStep from "./ExplainerStep";
 
 function Explainer() {
   return (
-    <div className="section">
+    <div className="section content-container" id="hoe-werkt-de-app">
       <ContentView>
         <Title>Hoe werkt de app?</Title>
         <Swiper

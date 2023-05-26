@@ -6,7 +6,7 @@ import picture from "../assets/images/profile_transparent.png";
 
 function About() {
   return (
-    <div className="section" id="over-saveme">
+    <div className="section content-container" id="over-saveme">
       <ContentView>
         <Title>Over SaveMe</Title>
         <Paragraph>

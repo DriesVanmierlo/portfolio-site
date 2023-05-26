@@ -14,9 +14,9 @@ function Question({ question }) {
       >
         <Subtitle className="faq-question">{question.question}</Subtitle>
         {showAnswer ? (
-          <CaretDown weight="bold" size={32} />
+          <CaretDown weight="bold" size={28} />
         ) : (
-          <CaretLeft weight="bold" size={32} />
+          <CaretLeft weight="bold" size={28} />
         )}
       </div>
 

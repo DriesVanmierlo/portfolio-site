@@ -5,7 +5,7 @@ import Paragraph from "./Paragraph";
 
 function Why() {
   return (
-    <div className="section">
+    <div className="section content-container">
       <ContentView>
         <Title>Waarom bestaat deze app?</Title>
         <Paragraph>

@@ -7,7 +7,7 @@ import Question from "./Question";
 
 function FAQ() {
   return (
-    <div className="section" id="veelgestelde-vragen">
+    <div className="section content-container" id="veelgestelde-vragen">
       <ContentView>
         <Title>Veelgestelde vragen</Title>
         <Paragraph className="faq-intro">
