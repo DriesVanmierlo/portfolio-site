@@ -151,6 +151,10 @@
   opacity: 0 !important;
 }
 
+.faq-intro {
+  margin-bottom: 32px;
+}
+
 .question-container {
   margin-bottom: 28px;
 }
@@ -159,8 +163,124 @@
   display: flex;
   flex-direction: row;
   gap: 15px;
+  width: 100%;
 }
 
 .faq-question {
   margin-bottom: 0;
+  display: flex;
+  flex-shrink: 1;
+}
+
+.info-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 10px;
+}
+.info-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.why-info-card {
+  padding: 0px 10px;
+  background-color: var(--neutral_200);
+  border-radius: 8px;
+}
+
+.about-figure {
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+  width: 50%;
+  max-width: 200px;
+  position: unset;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: auto;
+}
+
+.about-image {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.partner-section {
+  padding-bottom: 24px;
+}
+
+.partner-figure {
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+  width: 50%;
+  max-width: 200px;
+  position: unset;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: auto;
+}
+
+.partner-image {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.footer-container {
+  background-color: var(--primary_500);
+  padding-top: 24px;
+  padding-bottom: 64px;
+}
+
+.footer-figure {
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+  width: 30%;
+  max-width: 200px;
+  position: unset;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: auto;
+}
+
+.footer-image {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.footer-section {
+  padding-bottom: 0;
+}
+
+.footer-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.footer-link-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  gap: 5px;
+}
+.footer-link {
+  text-decoration: none;
+  color: var(--primary_300);
+  padding: 5px 0px;
 }

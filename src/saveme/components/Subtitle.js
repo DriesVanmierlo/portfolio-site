@@ -4,6 +4,7 @@ const Subtitle = styled.h3`
   font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 1.3rem;
+  line-height: 1.2rem;
   margin-top: 0px;
   ${(props) =>
     props.color === "light"

@@ -8,14 +8,16 @@ function Question({ question }) {
 
   return (
     <div className="question-container">
-      <div className="question-header" onClick={() => setShowAnswer(!showAnswer)}>
-        <Subtitle
-          className="faq-question"
-          
-        >
-          {question.question}
-        </Subtitle>
-        {showAnswer ? <CaretDown weight="bold" size={32} /> : <CaretLeft weight="bold" size={32} />}
+      <div
+        className="question-header"
+        onClick={() => setShowAnswer(!showAnswer)}
+      >
+        <Subtitle className="faq-question">{question.question}</Subtitle>
+        {showAnswer ? (
+          <CaretDown weight="bold" size={32} />
+        ) : (
+          <CaretLeft weight="bold" size={32} />
+        )}
       </div>
 
       {showAnswer && <Paragraph>{question.answer}</Paragraph>}

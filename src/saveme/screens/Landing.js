@@ -6,13 +6,16 @@ import Title from "../components/Title";
 import Paragraph from "../components/Paragraph";
 import Explainer from "../components/Explainer";
 import FAQ from "../components/FAQ";
+import Why from "../components/Why";
+import About from "../components/About";
+import Footer from "../components/Footer";
 
 export default function Landing() {
   return (
     <div className="container">
       <Banner />
       <ContentView className="section">
-        <Title id="what-is-saveme">Wat is SaveMe?</Title>
+        <Title id="wat-is-saveme">Wat is SaveMe?</Title>
         <Paragraph>
           SaveMe is een app waarmee je een stil alarm kan uitsturen naar
           vrienden wanneer je seksueel lastig gevallen wordt. Deze vrienden
@@ -22,6 +25,9 @@ export default function Landing() {
       </ContentView>
       <Explainer />
       <FAQ />
+      <Why />
+      <About />
+      <Footer />
     </div>
   );
 }

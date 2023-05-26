@@ -22,7 +22,7 @@ function Banner() {
             <a href="#" className="button-solid">
               Download de app
             </a>
-            <a href="#what-is-saveme" className="button-outline">
+            <a href="#wat-is-saveme" className="button-outline">
               Wat is SaveMe?
             </a>
           </div>
