@@ -55,7 +55,27 @@
     },
     {
       "question": "Wanneer stuur ik het best een alarm?",
-      "answer": "Voel je je seksueel bedreigd of verwacht je dat je..."
+      "answer": "Word je seksueel lastig gevallen of krijg je een onveilig gevoel? Activeer dan zeker jouw alarm. Het is beter om een keer te veel je alarm te annuleren dan een keer te weinig."
+    },
+    {
+      "question": "Kan de app gebruikt worden zonder internet?",
+      "answer": "Voorlopig is het niet mogelijk om de app zonder internet te gebruiken. Om een alarm te activeren moet je dus verbonden zijn met een wifinetwerk of mobiele data. Ook om notificaties te ontvangen heb je internet nodig."
+    },
+    {
+      "question": "Wordt mijn locatie altijd gedeeld?",
+      "answer": "Nee, enkel wanneer je zelf jouw alarm activeert wordt je locatie gedeeld. Enkel vrienden die je zelf heb toegevoegd kunnen je locatie vervolgens volgen."
+    },
+    {
+      "question": "Hoe grijp ik het best in op een onveilige situatie?",
+      "answer": "Wil je iemand redden uit een seksueel onveilig situatie, dan zijn hier wat tips. Probeer omstaanders te betrekken in de situatie. Leidt de storende persoon af. Zonder de persoon in nood subtiel af van de situatie."
+    },
+    {
+      "question": "Worden er hulpdiensten op de hoogte gehouden?",
+      "answer": "Nee, door een alarm te activeren krijgen enkel je vrienden een melding hiervan. Als je de hulpdiensten wilt verwittigen, moet je ze zelf inlichten."
+    },
+    {
+      "question": "Kan ik mijn persoonlijke gegevens verbergen voor anderen?",
+      "answer": "Ja, dat kan. Je kunt in de installingen van de app toestemmingen aanpassen. Hier kan je aanduiden welke gegevens je deelt met je vrienden."
     }
   ]
 }

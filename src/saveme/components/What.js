@@ -10,7 +10,7 @@ function What() {
         <div>
           <Title>Wat is SaveMe?</Title>
           <Paragraph>
-            SaveMe is een app waarmee je een stil alarm kan uitsturen naar
+            SaveMe is een app waarmee je een stil alarm kunt sturen naar
             vrienden wanneer je seksueel lastig gevallen wordt. Deze vrienden
             zullen je alarm zien verschijnen en kunnen je locatie volgen. Op
             deze manier kunnen zij subtiel je uit de onvielige situatie redden.
