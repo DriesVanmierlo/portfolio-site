@@ -62,7 +62,7 @@ function Footer() {
               </div>
             </div>
           </ContentView>
-          <div className="copyright-disclaimer">
+          <div className="saveme-copyright-disclaimer">
             &copy; 2023 <a href="https://driesvanmierlo.be/">Dries Vanmierlo</a>
           </div>
         </div>
