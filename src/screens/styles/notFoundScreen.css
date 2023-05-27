@@ -1,0 +1,23 @@
+.notfound-container {
+  width: 90%;
+  margin: auto;
+}
+
+.notfound-buttons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.notfound-button {
+  background-color: var(--neutral_300);
+  padding: 12px 24px;
+  text-decoration: none;
+  color: var(--neutral_900);
+  border-radius: 8px;
+}
+
+.notfound-button:hover {
+  background-color: var(--neutral_200);
+}

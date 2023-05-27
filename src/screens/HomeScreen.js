@@ -6,6 +6,7 @@ import ServicesScreen from "./ServicesScreen";
 import PortfolioScreen from "./PortfolioScreen";
 import ContactScreen from "./ContactScreen";
 import "./styles/homeScreen.css";
+import SaveMeButton from "../components/saveme-button/SaveMeButton";
 
 function HomeScreen() {
   return (
@@ -16,6 +17,7 @@ function HomeScreen() {
       <ServicesScreen />
       <PortfolioScreen />
       <ContactScreen />
+      <SaveMeButton />
     </div>
   );
 }

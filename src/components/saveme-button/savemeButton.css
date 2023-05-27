@@ -1,0 +1,50 @@
+.saveme-button-home {
+  top: 100px;
+  right: 25px;
+  position: fixed;
+  z-index: 900;
+}
+
+.saveme-button-link {
+  background-color: var(--primary_500);
+  border-radius: 500px;
+  width: 250px;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  text-decoration: none;
+  color: var(--neutral_100);
+}
+
+.savme-button-home-figure {
+  margin: 0;
+  height: 60px;
+  width: auto;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.savme-button-home-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.close-saveme-button-home {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: var(--neutral_100);
+  border-radius: 50px;
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+}
+
+.close-saveme-button-home:hover {
+  cursor: pointer;
+}
