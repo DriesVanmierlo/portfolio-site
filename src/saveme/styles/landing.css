@@ -331,6 +331,11 @@ saveme- #saveme-menu__toggle:checked + .saveme-menu__btn > span,
   display: none;
 }
 
+.saveme-promovideo {
+  width: 100%;
+  height: 43vw;
+}
+
 .faq-intro {
   margin-bottom: 32px;
 }
@@ -574,6 +579,11 @@ saveme- #saveme-menu__toggle:checked + .saveme-menu__btn > span,
   .explainer-step-content-container {
     padding-top: 64px;
     padding-left: 24px;
+  }
+
+  .saveme-promovideo {
+    width: 100%;
+    height: 350px;
   }
 
   .info-list-container {

@@ -13,6 +13,7 @@ import Header from "../components/Header";
 import { Helmet } from "react-helmet";
 import Menu from "../components/Menu";
 import What from "../components/What";
+import Promo from "../components/Promo";
 
 export default function Landing() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -40,6 +41,7 @@ export default function Landing() {
         {screenWidth >= 768 && <Menu />}
         <What />
         <Explainer />
+        <Promo />
         <FAQ />
         <Why />
         <About />
